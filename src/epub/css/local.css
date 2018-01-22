@@ -9,3 +9,22 @@ span[epub|type~="subtitle"]{
 section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
 	font-size: .75em;
 }
+
+.tattoo{
+	text-align: center;
+}
+
+.tattoo p{
+	text-align: left;
+	text-indent: 0;
+}
+
+.tattoo p > span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+.tattoo p > span + br{
+	display: none;
+}
