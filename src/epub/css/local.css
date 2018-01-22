@@ -14,17 +14,38 @@ section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
 	text-align: center;
 }
 
+[epub|type~="z3998:verse"] p,
+[epub|type~="z3998:song"] p,
 .tattoo p{
 	text-align: left;
 	text-indent: 0;
 }
 
+[epub|type~="z3998:verse"] p > span,
+[epub|type~="z3998:song"] p > span,
 .tattoo p > span{
 	display: block;
 	text-indent: -1em;
 	padding-left: 1em;
 }
 
+[epub|type~="z3998:verse"] p > span + br,
+[epub|type~="z3998:song"] p > span + br,
 .tattoo p > span + br{
 	display: none;
+}
+
+p span.i1{
+	text-indent: -1em;
+	padding-left: 2em;
+}
+
+p span.i2{
+	text-indent: -1em;
+	padding-left: 3em;
+}
+
+p span.i3{
+	text-indent: -1em;
+	padding-left: 4em;
 }
