@@ -19,15 +19,19 @@ section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
 	font-size: .75em;
 }
 
-.tattoo{
-	text-align: center;
-}
-
 [epub|type~="z3998:verse"] p,
-[epub|type~="z3998:song"] p,
-.tattoo p{
+[epub|type~="z3998:song"] p{
 	text-align: left;
 	text-indent: 0;
+}
+
+.tattoo p{
+	text-align: center;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:song"] p + p{
+	margin-top: 1em;
 }
 
 [epub|type~="z3998:verse"] p > span,
