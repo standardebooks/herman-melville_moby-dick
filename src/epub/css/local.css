@@ -10,6 +10,10 @@ abbr.era{
 	font-variant: all-small-caps;
 }
 
+time{
+	font-style: italic;
+}
+
 span[epub|type~="subtitle"]{
 	display: block;
 	font-weight: normal;
@@ -63,6 +67,7 @@ p span.i3{
 	padding-left: 4em;
 }
 
+/* Headlines in Chapter 1 */
 .headlines > p{
 	text-align: center;
 	text-indent: 0;
@@ -78,5 +83,26 @@ p span.i3{
 }
 .headlines em{
 	font-style: normal;
+	text-transform: uppercase;
+}
+
+/* Gravestones in Chapter 7 */
+.gravestone + .gravestone::before{
+	border-top: 1px solid;
+	content: '';
+	display: block;
+	height: 0;
+	margin: 1.5em auto;
+	width: 25%;
+}
+.gravestone > p{
+	text-align: center;
+	text-indent: 0;
+	margin: 0;
+}
+.gravestone .alternate-voice{
+	font-variant: all-small-caps;
+}
+.gravestone .deceased{
 	text-transform: uppercase;
 }
