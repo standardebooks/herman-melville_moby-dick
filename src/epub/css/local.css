@@ -10,6 +10,11 @@ abbr.era{
 	font-variant: all-small-caps;
 }
 
+b{
+	font-weight: normal;
+	font-variant: all-small-caps;
+}
+
 time{
 	font-style: italic;
 }
