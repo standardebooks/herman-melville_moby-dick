@@ -81,34 +81,42 @@ p span.i3{
 	font-variant: all-small-caps;
 	margin-top: 0.5em;
 }
+
 [epub|type~="z3998:stage-direction"]{
 	font-variant: normal;
 	font-style: italic;
 	text-transform: none;
 }
+
 [epub|type~="z3998:stage-direction"]::before{
 	content: "(";
 	font-style: normal;
 }
+
 [epub|type~="z3998:stage-direction"]::after{
 	content: ")";
 	font-style: normal;
 }
+
 p[epub|type~="z3998:stage-direction"]{
 	text-align: center;
 	text-indent: 0;
 	margin: .5em 0;
 }
+
 p[epub|type~="z3998:persona"] + p[epub|type~="z3998:stage-direction"]{
 	margin-top: 0;
 }
+
 p[epub|type~="z3998:stage-direction"].off-stage{
 	text-align: right;
 }
+
 p[epub|type~="z3998:stage-direction"].location{
 	font-style: normal;
 	font-variant: all-small-caps;
 }
+
 p[epub|type~="z3998:stage-direction"].location::before,
 p[epub|type~="z3998:stage-direction"].location::after{
 	content: none;
@@ -120,14 +128,17 @@ p[epub|type~="z3998:stage-direction"].location::after{
 	text-indent: 0;
 	margin: 0;
 }
+
 .headlines strong{
 	font-variant: normal;
 	font-style: italic;
 	text-transform: none;
 }
+
 .headlines span{
 	font-variant: all-small-caps;
 }
+
 .headlines em{
 	font-style: normal;
 	text-transform: uppercase;
@@ -142,14 +153,21 @@ p[epub|type~="z3998:stage-direction"].location::after{
 	margin: 1.5em auto;
 	width: 25%;
 }
+
 .gravestone > p{
 	text-align: center;
 	text-indent: 0;
 	margin: 0;
 }
+
 .gravestone .alternate-voice{
 	font-variant: all-small-caps;
 }
+
+.gravestone .memoriam{
+	font-style: italic;
+}
+
 .gravestone .deceased{
 	text-transform: uppercase;
 }
@@ -158,6 +176,7 @@ p[epub|type~="z3998:stage-direction"].location::after{
 .stores td{
 	vertical-align: top;
 }
+
 .stores td:first-child{
 	text-align: right;
 }
