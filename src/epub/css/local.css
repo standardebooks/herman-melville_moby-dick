@@ -23,6 +23,7 @@ section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
 	font-size: .75em;
 }
 
+/* Verse and song */
 [epub|type~="z3998:verse"] p,
 [epub|type~="z3998:song"] p{
 	text-align: left;
@@ -65,6 +66,47 @@ p span.i2{
 p span.i3{
 	text-indent: -1em;
 	padding-left: 4em;
+}
+
+/* Drama style chapters */
+[epub|type~="z3998:persona"]{
+	display: block;
+	text-align: center;
+	text-indent: 0;
+	font-variant: all-small-caps;
+	margin-top: 0.5em;
+}
+[epub|type~="z3998:stage-direction"]{
+	font-variant: normal;
+	font-style: italic;
+	text-transform: none;
+}
+[epub|type~="z3998:stage-direction"]::before{
+	content: "(";
+	font-style: normal;
+}
+[epub|type~="z3998:stage-direction"]::after{
+	content: ")";
+	font-style: normal;
+}
+p[epub|type~="z3998:stage-direction"]{
+	text-align: center;
+	text-indent: 0;
+	margin: .5em 0;
+}
+p[epub|type~="z3998:persona"] + p[epub|type~="z3998:stage-direction"]{
+	margin-top: 0;
+}
+p[epub|type~="z3998:stage-direction"].off-stage{
+	text-align: right;
+}
+p[epub|type~="z3998:stage-direction"].location{
+	font-style: normal;
+	font-variant: all-small-caps;
+}
+p[epub|type~="z3998:stage-direction"].location::before,
+p[epub|type~="z3998:stage-direction"].location::after{
+	content: none;
 }
 
 /* Headlines in Chapter 1 */
