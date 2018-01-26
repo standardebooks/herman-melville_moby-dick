@@ -153,3 +153,11 @@ p[epub|type~="z3998:stage-direction"].location::after{
 .gravestone .deceased{
 	text-transform: uppercase;
 }
+
+/* Stores in chapter 101 */
+.stores td{
+	vertical-align: top;
+}
+.stores td:first-child{
+	text-align: right;
+}
