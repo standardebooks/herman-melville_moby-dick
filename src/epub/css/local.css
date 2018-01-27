@@ -15,6 +15,11 @@ b{
 	font-variant: all-small-caps;
 }
 
+b.alt{
+	font-variant: normal;
+	text-transform: uppercase;
+}
+
 time{
 	font-style: italic;
 }
