@@ -33,6 +33,16 @@ section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
 	font-size: .75em;
 }
 
+section[epub|type~="dedication"]{
+	text-align: center;
+}
+
+section[epub|type~="dedication"] p{
+	margin: 25% auto;
+	text-align: center;
+	text-indent: 0;
+}
+
 /* Verse and song */
 [epub|type~="z3998:verse"] p,
 [epub|type~="z3998:song"] p{
