@@ -137,6 +137,25 @@ p[epub|type~="z3998:stage-direction"].location::after{
 	content: none;
 }
 
+/* Translations in Etymology */
+.translations > table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.translations td:first-child{
+	font-variant: small-caps;
+}
+
+.translations td:first-child::after{
+	content: ',';
+}
+
+.translations td + td{
+	padding-left: 1em;
+	font-style: italic;
+}
+
 /* Headlines in Chapter 1 */
 .headlines > p{
 	text-align: center;
