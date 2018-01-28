@@ -15,8 +15,10 @@ b{
 	font-variant: all-small-caps;
 }
 
+dfn,
 b.alt{
 	font-variant: normal;
+	font-style: normal;
 	text-transform: uppercase;
 }
 
