@@ -140,6 +140,12 @@ p[epub|type~="z3998:stage-direction"].location::after{
 	content: none;
 }
 
+p[epub|type~="z3998:stage-direction"] + [epub|type~="z3998:verse"],
+p[epub|type~="z3998:stage-direction"] + [epub|type~="z3998:song"]{
+	margin-top: .5em;
+}
+
+
 /* Translations in Etymology */
 .translations > table{
 	margin-left: auto;
