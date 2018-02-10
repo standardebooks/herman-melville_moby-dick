@@ -26,6 +26,10 @@ time{
 	font-style: italic;
 }
 
+ol.roman{
+	list-style-type: upper-roman;
+}
+
 span[epub|type~="subtitle"]{
 	display: block;
 	font-weight: normal;
@@ -144,7 +148,6 @@ p[epub|type~="z3998:stage-direction"] + [epub|type~="z3998:verse"],
 p[epub|type~="z3998:stage-direction"] + [epub|type~="z3998:song"]{
 	margin-top: .5em;
 }
-
 
 /* Translations in Etymology */
 .translations > table{
