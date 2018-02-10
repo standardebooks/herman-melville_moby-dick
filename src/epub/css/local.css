@@ -49,6 +49,26 @@ section[epub|type~="dedication"] p{
 	text-indent: 0;
 }
 
+[epub|type~="epigraph"]{
+	font-style: italic;
+	hyphens: none;
+	margin: 3em;
+	margin-top: 0;
+	text-align: left;
+	text-indent: 0;
+	display: inline-block;
+}
+
+[epub|type~="epigraph"] cite{
+	margin-top: 1em;
+	font-style: normal;
+	font-variant: small-caps;
+}
+
+[epub|type~="epigraph"] cite i{
+	font-style: italic;
+}
+
 /* Verse and song */
 [epub|type~="z3998:verse"] p,
 [epub|type~="z3998:song"] p{
