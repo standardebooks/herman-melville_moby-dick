@@ -65,10 +65,6 @@ section[epub|type~="dedication"] p{
 	font-variant: small-caps;
 }
 
-[epub|type~="epigraph"] cite i{
-	font-style: italic;
-}
-
 /* Verse and song */
 [epub|type~="z3998:verse"] p,
 [epub|type~="z3998:song"] p{
@@ -164,7 +160,6 @@ p[epub|type~="z3998:stage-direction"].location::after{
 	content: none;
 }
 
-p[epub|type~="z3998:stage-direction"] + [epub|type~="z3998:verse"],
 p[epub|type~="z3998:stage-direction"] + [epub|type~="z3998:song"]{
 	margin-top: .5em;
 }
