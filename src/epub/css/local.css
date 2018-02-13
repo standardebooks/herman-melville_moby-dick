@@ -77,6 +77,12 @@ section[epub|type~="dedication"] p{
 	text-indent: 0;
 }
 
+.tattoo img{
+	width: 0.875em;
+	margin: 0 0.5em;
+	vertical-align: middle;
+}
+
 [epub|type~="z3998:verse"] p + p,
 [epub|type~="z3998:song"] p + p{
 	margin-top: 1em;

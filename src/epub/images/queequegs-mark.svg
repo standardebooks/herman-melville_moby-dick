@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <title>Queequeg’s signature</title>
+  <desc>Four triangles arranged so that their points meet in the middle.</desc>
+  <g transform="translate(30 30)">
+	  <path d="M -10 -30 L 10 -30 L 0 0 z" id="a" />
+	  <use transform="rotate(90)" xlink:href="#a" />
+	  <use transform="rotate(180)" xlink:href="#a" />
+	  <use transform="rotate(270)" xlink:href="#a" />
+	</g>
+</svg>
