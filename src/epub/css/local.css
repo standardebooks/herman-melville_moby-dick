@@ -10,16 +10,10 @@ abbr.era{
 	font-variant: all-small-caps;
 }
 
+dfn,
 b{
 	font-weight: normal;
 	font-variant: all-small-caps;
-}
-
-dfn,
-b.alt{
-	font-variant: normal;
-	font-style: normal;
-	text-transform: uppercase;
 }
 
 time{
