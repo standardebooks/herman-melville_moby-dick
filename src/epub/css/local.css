@@ -66,33 +66,20 @@ section[epub|type~="dedication"] p{
 	text-indent: 0;
 }
 
-.tattoo p{
-	text-align: center;
-	text-indent: 0;
-}
-
-.tattoo img{
-	width: 0.875em;
-	margin: 0 0.5em;
-	vertical-align: middle;
-}
-
 [epub|type~="z3998:verse"] p + p,
 [epub|type~="z3998:song"] p + p{
 	margin-top: 1em;
 }
 
 [epub|type~="z3998:verse"] p > span,
-[epub|type~="z3998:song"] p > span,
-.tattoo p > span{
+[epub|type~="z3998:song"] p > span{
 	display: block;
 	text-indent: -1em;
 	padding-left: 1em;
 }
 
 [epub|type~="z3998:verse"] p > span + br,
-[epub|type~="z3998:song"] p > span + br,
-.tattoo p > span + br{
+[epub|type~="z3998:song"] p > span + br{
 	display: none;
 }
 
@@ -231,6 +218,18 @@ p[epub|type~="z3998:stage-direction"] + [epub|type~="z3998:song"]{
 
 .gravestone .deceased{
 	text-transform: uppercase;
+}
+
+/* Queequeg’s mark in chapter 18 */
+
+.queequegs-mark p{
+	text-align: center;
+}
+
+.queequegs-mark img{
+	width: 0.875em;
+	margin: 0 0.5em;
+	vertical-align: middle;
 }
 
 /* Stores in chapter 101 */
