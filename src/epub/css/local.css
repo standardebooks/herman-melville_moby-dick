@@ -165,20 +165,20 @@ p[epub|type~="z3998:stage-direction"] + [epub|type~="z3998:song"]{
 }
 
 /* Translations in Etymology */
-.translations > table{
+[epub|type~="preamble"] table{
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.translations td:first-child{
+[epub|type~="preamble"] td:first-child{
 	font-variant: small-caps;
 }
 
-.translations td:first-child::after{
+[epub|type~="preamble"] td:first-child::after{
 	content: ',';
 }
 
-.translations td + td{
+[epub|type~="preamble"] td + td{
 	padding-left: 1em;
 	font-style: italic;
 }
