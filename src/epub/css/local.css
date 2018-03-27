@@ -20,7 +20,7 @@ time{
 	font-style: italic;
 }
 
-ol.roman{
+[epub|type~="chapter"] ol{
 	list-style-type: upper-roman;
 }
 
