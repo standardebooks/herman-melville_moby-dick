@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 60 60">
-	<title>Queequeg’s signature</title>
-	<desc>Four triangles arranged so that their points meet in the middle.</desc>
+	<title>Four triangles arranged so that their points meet in the middle.</title>
 	<path d="M 20,0 40,0 30,30 Z"/>
 	<path d="M 40,60 20,60 30,30 Z"/>
 	<path d="M 0,40 0,20 30,30 Z"/>
