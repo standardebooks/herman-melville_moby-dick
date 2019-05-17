@@ -15,7 +15,7 @@
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
 		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com</meta>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Moby Dick</dc:title>
 		<meta property="file-as" refines="#title">Moby Dick</meta>
 		<dc:subject id="subject-1">Whaling -- Fiction</dc:subject>
@@ -27,24 +27,31 @@
 		<dc:subject id="subject-7">Ahab, Captain (Fictitious character) -- Fiction</dc:subject>
 		<dc:subject id="subject-8">Whales -- Fiction</dc:subject>
 		<dc:subject id="subject-9">Whaling ships -- Fiction</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/2701</meta>
-		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/2701</meta>
-		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/2701</meta>
-		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/2701</meta>
-		<meta property="meta-auth" refines="#subject-5">https://www.gutenberg.org/ebooks/2701</meta>
-		<meta property="meta-auth" refines="#subject-6">https://www.gutenberg.org/ebooks/2701</meta>
-		<meta property="meta-auth" refines="#subject-7">https://www.gutenberg.org/ebooks/2701</meta>
-		<meta property="meta-auth" refines="#subject-8">https://www.gutenberg.org/ebooks/2701</meta>
-		<meta property="meta-auth" refines="#subject-9">https://www.gutenberg.org/ebooks/2701</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh2008113463</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">sh85119251</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh85108438</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh2008111148</meta>
+		<meta property="authority" refines="#subject-5">LCSH</meta>
+		<meta property="term" refines="#subject-5">sh85001072</meta>
+		<meta property="authority" refines="#subject-6">LCSH</meta>
+		<meta property="term" refines="#subject-6">sh2008107226</meta>
+		<meta property="authority" refines="#subject-7">LCSH</meta>
+		<meta property="term" refines="#subject-7">sh2007100918</meta>
+		<meta property="authority" refines="#subject-8">LCSH</meta>
+		<meta property="term" refines="#subject-8">sh2008113464</meta>
+		<meta property="authority" refines="#subject-9">LCSH</meta>
+		<meta property="term" refines="#subject-9">sh2008113462</meta>
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">Captain Ahab, having lost his leg to the white whale Moby Dick, travels the world on a quest for vengeance.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;“Call me Ishmael” says &lt;i&gt;Moby Dick&lt;/i&gt;’s protagonist, and with this famous first line launches one of the acclaimed great American novels. Part adventure story, part quest for vengeance, part biological textbook and part whaling manual, &lt;i&gt;Moby Dick&lt;/i&gt; was first published in 1851. The story follows Ishmael as he abandons his humdrum life on shore for an adventure on the waves. Finding the whaler &lt;i&gt;Pequod&lt;/i&gt; at harbour in Nantucket, he signs up for a three year term without meeting the Captain of the ship, a mysterious figure called Ahab. It is only well into the voyage that Ahab’s thirst for vengeance against the eponymous white whale Moby Dick⁠—and the consequences⁠—become clear.&lt;/p&gt;
 			&lt;p&gt;The novel is semi-autobiographical: Herman Melville had had his own experience of whaling, having spent a year and a half aboard a whaling ship and further years travelling the world in the early 1840s. Herman used the knowledge gained from his experiences and wide reading on the subject to furnish &lt;i&gt;Moby Dick&lt;/i&gt; with an almost encyclopaedic quality at times. The literary style varies widely, veering from soliloquies and staged scenes to dream sequences to comprehensive lists of ships provisions, but everything serves to further detail the world that’s being painted.&lt;/p&gt;
 			&lt;p&gt;Presented here is the New York edition, which was published later than the London edition and reverted numerous changes the original publishers had made, as well as including the initially omitted epilogue.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2701</dc:source>
 		<dc:source>https://archive.org/details/mobydickorwhale01melv</dc:source>
