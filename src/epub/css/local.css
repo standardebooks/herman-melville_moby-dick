@@ -172,7 +172,7 @@ p[epub|type~="z3998:stage-direction"] + [epub|type~="z3998:song"]{
 }
 
 [epub|type~="preamble"] td:first-child::after{
-	content: ',';
+	content: ",";
 }
 
 [epub|type~="preamble"] td + td{
@@ -205,7 +205,7 @@ p[epub|type~="z3998:stage-direction"] + [epub|type~="z3998:song"]{
 /* Gravestones in Chapter 7 */
 .gravestone + .gravestone::before{
 	border-top: 1px solid;
-	content: '';
+	content: "";
 	display: block;
 	height: 0;
 	margin: 1.5em auto;
