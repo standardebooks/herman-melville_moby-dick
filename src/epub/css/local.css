@@ -143,7 +143,7 @@ p[epub|type~="z3998:persona"] + p[epub|type~="z3998:stage-direction"]{
 	margin-top: 0;
 }
 
-p[epub|type~="z3998:stage-direction"].off-stage{
+#chapter-38 p:nth-of-type(3){
 	text-align: right;
 }
 
@@ -181,23 +181,23 @@ p[epub|type~="z3998:stage-direction"] + [epub|type~="z3998:song"]{
 }
 
 /* Headlines in Chapter 1 */
-.headlines > p{
+#chapter-1 blockquote > p{
 	text-align: center;
 	text-indent: 0;
 	margin: 0;
 }
 
-.headlines strong{
+#chapter-1 blockquote strong{
 	font-variant: normal;
 	font-style: italic;
 	text-transform: none;
 }
 
-.headlines span{
+#chapter-1 blockquote span{
 	font-variant: all-small-caps;
 }
 
-.headlines em{
+#chapter-1 blockquote em{
 	font-style: normal;
 	text-transform: uppercase;
 }
@@ -231,21 +231,21 @@ p[epub|type~="z3998:stage-direction"] + [epub|type~="z3998:song"]{
 }
 
 /* Queequeg’s mark in chapter 18 */
-.queequegs-mark p{
+#chapter-18 blockquote p{
 	text-align: center;
 }
 
-.queequegs-mark img{
+#chapter-18 blockquote img{
 	width: 0.875em;
 	margin: 0 0.5em;
 	vertical-align: middle;
 }
 
 /* Stores in chapter 101 */
-.stores td{
+#chapter-101 blockquote td{
 	vertical-align: top;
 }
 
-.stores td:first-child{
+#chapter-101 blockquote td:first-child{
 	text-align: right;
 }
