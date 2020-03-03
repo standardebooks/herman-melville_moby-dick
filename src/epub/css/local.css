@@ -249,3 +249,9 @@ p[epub|type~="z3998:stage-direction"] + [epub|type~="z3998:song"]{
 #chapter-101 blockquote td:first-child{
 	text-align: right;
 }
+
+[epub|type~="preamble"] header{
+	margin-top: 3em;
+	font-variant: small-caps;
+	font-weight: bold;
+}
