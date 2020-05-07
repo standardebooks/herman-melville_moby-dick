@@ -193,7 +193,7 @@ p[epub|type~="z3998:stage-direction"] + [epub|type~="z3998:song"]{
 	text-transform: none;
 }
 
-#chapter-1 blockquote span{
+#chapter-1 blockquote p:nth-child(2){
 	font-variant: all-small-caps;
 }
 
