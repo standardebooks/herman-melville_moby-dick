@@ -148,11 +148,7 @@ p[epub|type~="z3998:stage-direction"] + p{
 p[epub|type~="z3998:stage-direction"]{
 	text-align: center;
 	text-indent: 0;
-	margin: .5em 0;
-}
-
-p[epub|type~="z3998:persona"] + p[epub|type~="z3998:stage-direction"]{
-	margin-top: 0;
+	margin: 1em 0;
 }
 
 #chapter-38 p:nth-of-type(3){
