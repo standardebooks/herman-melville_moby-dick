@@ -111,11 +111,22 @@ p span.i3{
 
 /* Drama style chapters */
 [epub|type~="z3998:persona"]{
-	display: block;
+	font-variant: all-small-caps;
+}
+
+p.persona{
 	text-align: center;
 	text-indent: 0;
-	font-variant: all-small-caps;
-	margin-top: 0.5em;
+	margin-top: .5em;
+}
+
+p.persona + p[epub|type~="z3998:stage-direction"]{
+	margin-top: 0;
+}
+
+p.persona + p,
+p[epub|type~="z3998:stage-direction"] + p{
+	text-indent: 0;
 }
 
 [epub|type~="z3998:stage-direction"]{
