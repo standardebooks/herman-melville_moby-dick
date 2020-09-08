@@ -18,10 +18,6 @@ time{
 	list-style-type: upper-roman;
 }
 
-section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
-	font-size: .75em;
-}
-
 section[epub|type~="dedication"]{
 	text-align: center;
 }
