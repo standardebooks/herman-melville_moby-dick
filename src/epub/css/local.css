@@ -35,10 +35,6 @@ section[epub|type~="dedication"] p{
 	-epub-hyphens: none;
 }
 
-[epub|type~="epigraph"] i{
-	font-style: normal;
-}
-
 [epub|type~="epigraph"] cite{
 	margin-top: 1em;
 	font-style: normal;
