@@ -75,7 +75,7 @@
 		<dc:contributor id="artist">Albert Pinkham Ryder</dc:contributor>
 		<meta property="file-as" refines="#artist">Ryder, Albert Pinkham</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Albert_Pinkham_Ryder</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n88163150</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n88163150</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Daniel Lazarus</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Lazarus, Daniel</meta>
