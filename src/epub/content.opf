@@ -35,6 +35,7 @@
 		<meta property="file-as" refines="#subtitle">Or, The Whale</meta>
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:title id="fulltitle">Moby Dick, or The Whale</dc:title>
+		<meta property="file-as" refines="#fulltitle">Moby Dick</meta>
 		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Whaling -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Sea stories</dc:subject>
