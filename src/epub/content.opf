@@ -71,6 +71,8 @@
 		<meta id="collection-2" property="belongs-to-collection">The Telegraph’s Greatest Villains in Literature</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
 		<meta property="group-position" refines="#collection-2">39</meta>
+		<meta id="collection-3" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
+		<meta property="collection-type" refines="#collection-3">set</meta>
 		<dc:description id="description">Captain Ahab, having lost his leg to the white whale Moby Dick, travels the world on a quest for vengeance.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;“Call me Ishmael” says &lt;i&gt;Moby Dick&lt;/i&gt;’s protagonist, and with this famous first line launches one of the acclaimed great American novels. Part adventure story, part quest for vengeance, part biological textbook and part whaling manual, &lt;i&gt;Moby Dick&lt;/i&gt; was first published in 1851. The story follows Ishmael as he abandons his humdrum life on shore for an adventure on the waves. Finding the whaler &lt;i&gt;Pequod&lt;/i&gt; at harbour in Nantucket, he signs up for a three year term without meeting the Captain of the ship, a mysterious figure called Ahab. It is only well into the voyage that Ahab’s thirst for vengeance against the eponymous white whale Moby Dick—and the consequences—become clear.&lt;/p&gt;
