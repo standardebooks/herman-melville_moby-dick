@@ -250,3 +250,7 @@ p[epub|type~="z3998:stage-direction"] + [epub|type~="z3998:song"]{
 	font-variant: small-caps;
 	font-weight: bold;
 }
+
+#extracts blockquote cite i i{
+	font-style: italic;
+}
