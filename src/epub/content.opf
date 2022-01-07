@@ -82,7 +82,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/2701</dc:source>
 		<dc:source>https://archive.org/details/mobydickorwhale01melv</dc:source>
 		<meta property="se:production-notes">Image alt text in Chapter 18 deviates from the standard to make the containing sentence read like a sentence when read by a screen reader.</meta>
-		<meta property="se:word-count">213538</meta>
+		<meta property="se:word-count">213533</meta>
 		<meta property="se:reading-ease.flesch">64.44</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Moby_Dick</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/herman-melville_moby-dick</meta>
