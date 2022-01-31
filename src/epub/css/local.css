@@ -6,8 +6,8 @@
 }
 
 dfn{
-	font-weight: normal;
 	font-variant: all-small-caps;
+	font-weight: normal;
 }
 
 time{
@@ -36,9 +36,9 @@ section[epub|type~="dedication"] p{
 }
 
 [epub|type~="epigraph"] cite{
-	margin-top: 1em;
 	font-style: normal;
 	font-variant: small-caps;
+	margin-top: 1em;
 }
 /* End all epigraphs */
 
@@ -102,9 +102,9 @@ p span.i3{
 }
 
 p.persona{
+	margin-top: 1em;
 	text-align: center;
 	text-indent: 0;
-	margin-top: 1em;
 }
 
 p.persona + p[epub|type~="z3998:stage-direction"]{
@@ -117,8 +117,8 @@ p[epub|type~="z3998:stage-direction"] + p{
 }
 
 [epub|type~="z3998:stage-direction"]{
-	font-variant: normal;
 	font-style: italic;
+	font-variant: normal;
 	text-transform: none;
 }
 
@@ -133,9 +133,9 @@ p[epub|type~="z3998:stage-direction"] + p{
 }
 
 p[epub|type~="z3998:stage-direction"]{
+	margin: .5em 0;
 	text-align: center;
 	text-indent: 0;
-	margin: .5em 0;
 }
 
 #chapter-38 p:nth-of-type(3){
@@ -171,20 +171,20 @@ p[epub|type~="z3998:stage-direction"] + [epub|type~="z3998:song"]{
 }
 
 [epub|type~="preamble"] td + td{
-	padding-left: 1em;
 	font-style: italic;
+	padding-left: 1em;
 }
 
 /* Headlines in Chapter 1 */
 #chapter-1 blockquote > p{
+	margin: 0;
 	text-align: center;
 	text-indent: 0;
-	margin: 0;
 }
 
 #chapter-1 blockquote strong{
-	font-variant: normal;
 	font-style: italic;
+	font-variant: normal;
 	text-transform: none;
 }
 
@@ -208,9 +208,9 @@ p[epub|type~="z3998:stage-direction"] + [epub|type~="z3998:song"]{
 }
 
 .gravestone > p{
+	margin: 0;
 	text-align: center;
 	text-indent: 0;
-	margin: 0;
 }
 
 .gravestone .alternate-voice{
@@ -231,9 +231,9 @@ p[epub|type~="z3998:stage-direction"] + [epub|type~="z3998:song"]{
 }
 
 #chapter-18 blockquote img{
-	width: 0.875em;
 	margin: 0 0.5em;
 	vertical-align: middle;
+	width: 0.875em;
 }
 
 /* Stores in chapter 101 */
@@ -246,9 +246,9 @@ p[epub|type~="z3998:stage-direction"] + [epub|type~="z3998:song"]{
 }
 
 [epub|type~="preamble"] header{
-	margin-top: 3em;
 	font-variant: small-caps;
 	font-weight: bold;
+	margin-top: 3em;
 }
 
 #extracts blockquote cite i i{
