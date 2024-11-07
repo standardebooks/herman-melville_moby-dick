@@ -231,9 +231,9 @@ p[epub|type~="z3998:stage-direction"] + [epub|type~="z3998:song"]{
 }
 
 #chapter-18 blockquote img{
-	margin: 0 0.5em;
+	margin: 0 .5em;
 	vertical-align: middle;
-	width: 0.875em;
+	width: .875em;
 }
 
 /* Stores in chapter 101 */
