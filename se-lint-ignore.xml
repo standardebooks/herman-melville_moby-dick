@@ -2,10 +2,6 @@
 <se-lint-ignore>
 	<file path="chapter-18.xhtml">
 		<ignore>
-			<code>t-026</code>
-			<reason>The alt tag doesn't end in punctuation so that screen readers can read it as part of the sentence it's inline with.</reason>
-		</ignore>
-		<ignore>
 			<code>s-022</code>
 			<reason>The alt tag for the image is different to improve readabilty for screen readers.</reason>
 		</ignore>
