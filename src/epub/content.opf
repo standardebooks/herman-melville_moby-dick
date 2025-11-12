@@ -91,8 +91,8 @@
 		<meta property="file-as" refines="#author">Melville, Herman</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Herman_Melville</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79006936</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Albert Pinkham Ryder</dc:contributor>
 		<meta property="file-as" refines="#artist">Ryder, Albert Pinkham</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Albert_Pinkham_Ryder</meta>
