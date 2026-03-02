@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="chapter-18.xhtml">
-		<ignore>
-			<code>s-022</code>
+		<ignore code="s-022">
 			<reason>The alt tag for the image is different to improve readabilty for screen readers.</reason>
 		</ignore>
 	</file>
